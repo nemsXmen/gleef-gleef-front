@@ -15,7 +15,7 @@ export default function TranslationTableItem({
   remove,
 }: TranslationTableItemProps) {
   const { control } = useFormContext<Partial<UpsertTranslationForm>>();
-  
+
   return (
     <TableRow>
       <TableCell className="font-medium">
@@ -25,7 +25,7 @@ export default function TranslationTableItem({
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Input placeholder="shadcn" {...field} />
+                <Input placeholder="" {...field} />
               </FormControl>
             </FormItem>
           )}
@@ -38,7 +38,7 @@ export default function TranslationTableItem({
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Input placeholder="shadcn" {...field} />
+                <Input placeholder="" {...field} />
               </FormControl>
             </FormItem>
           )}
@@ -51,7 +51,7 @@ export default function TranslationTableItem({
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Input placeholder="shadcn" {...field} />
+                <Input placeholder="" {...field} />
               </FormControl>
             </FormItem>
           )}
@@ -64,7 +64,7 @@ export default function TranslationTableItem({
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Input placeholder="shadcn" {...field} />
+                <Input placeholder="" {...field} />
               </FormControl>
             </FormItem>
           )}
